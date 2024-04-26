@@ -1,0 +1,57 @@
+.container {
+  height: 110vh;
+  background-image: url(https://uzbek-travel.com/images/uz/header-front.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 1.5rem 0;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      gap: 3rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #023047;
+    }
+  }
+
+  main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    img {
+      z-index: 1;
+      opacity: 0.5;
+    }
+
+    div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      text-align: center;
+
+      color: #023047;
+
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-weight: 800;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
